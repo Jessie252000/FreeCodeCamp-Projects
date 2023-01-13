@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cat Photo App Survey Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title">Cat Photo App Survey Form</h1>
+        <p id="description">Help us improve our application with your honest feedback.</p>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name: </label>
+                <input id="name" type="text" placeholder="Enter your name" required />
+            </div>
+
+            <div class="form-group">
+                <label id="email-label" for="email">Email: </label>
+                <input id="email" type="email" placeholder="Enter your email" required />
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">No. of cats you have: </label>
+                <input id="number" type="number" min="1" max="10" placeholder="No. of cats you have:" />
+            </div>
+            <div class="form-group">
+                <p>Gender:</p>
+                <label for="gender">
+                    <input type="radio" name="gender" value="male" />
+                    Male
+                </label>
+                <label for="gender">
+                    <input type="radio" name="gender" value="female" />
+                    Female
+                </label>
+            </div>
+
+            <div class="form-group">
+                <p>Where did you hear from us? </p>
+                <select id="dropdown">
+                    <label>
+                        <option value="">Select an option</option>
+                        <option value="1">Cat Photo App News</option>
+                        <option value="2">Youtube</option>
+                        <option value="3">Facebook</option>
+                        <option value="4">Friends</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p>What do you want to improve? </p>
+                <label><input name="improve" value="design" type="checkbox" class="input-checkbox" />Aesthetic
+                    Design of
+                    the Application</label>
+                <label><input name="improve" value="chat" type="checkbox" class="input-checkbox" />Chat</label>
+                <label><input name="improve" value="videos" type="checkbox" class="input-checkbox" />Videos</label>
+                <label><input name="improve" value="wiki" type="checkbox" class="input-checkbox" />Wiki</label>
+            </div>
+
+            <div class="form-group">
+                <p>Any comments or suggestions?</p>
+                <textarea name="comments" id="comments" cols="30" rows="10"
+                    placeholder="Enter your comment here..."></textarea>
+            </div>
+
+            <input id="submit" type="submit" />
+        </form>
+    </div>
+</body>
+
+</html>
