@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+  background: url("https://images2.alphacoders.com/175/175470.jpg");
+  background-size: cover;
+}
+
+/*MAIN SECTION*/
+
+.container {
+  width: 60%;
+  height: auto;
+  margin: 20px auto;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.50);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#title,
+#description {
+  text-align: center;
+}
+
+form {
+  width: 80%;
+  margin: auto;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: inline-block;
+}
+
+input,
+select,
+textarea {
+  display: block;
+  margin-bottom: 0.5rem;
+  height: 30px;
+  width: 100%;
+  font-size: inherit;
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  width: 20px;
+}
+
+input:hover,
+select:hover,
+textareainput[type="radio"]:hover,
+input[type="checkbox"]:hover {
+  border: 1px solid black;
+}
+
+textarea {
+  height: 50px;
+}
+
+input[type="submit"] {
+  width: 300px;
+  height: 50px;
+  margin: 10px auto;
+  background-color: #37af65;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: #37ef60;
+  color: black;
+}
