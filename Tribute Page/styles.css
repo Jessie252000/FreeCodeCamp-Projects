@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Rubik:wght@400;500&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body{
+  font-family: rubik, sans-serif;
+}
+#main{
+  width: 60%;
+  max-width: 800px;
+  margin: auto;
+  background-color: rgb(71,70,70);
+  color: rgb(230,230,230);
+  padding: 30px 30px;
+}
+
+h3{
+  font-size: 24px;
+}
+#title{
+  text-align:center;
+  margin: 20px 0;
+}
+#image{
+  display:block;
+  max-width:100%;
+  height: auto;
+  padding: 0px 0 10px 0;
+}
+#img-caption{
+  text-align:center;
+  font-style: italic;
+}
+#tribute-info, h3{
+  margin-top: 40px;
+}
+
+p:not(#img-caption, #link){
+  line-height: 25px;
+  margin-top: 20px;
+  font-size: 18px;
+  text-align:justify;
+}
+
+#link{
+  text-align: center;
+  margin-top: 40px;
+}
+#link a{
+  color: inherit;
+}
