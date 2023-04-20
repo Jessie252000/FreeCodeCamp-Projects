@@ -9,4 +9,4 @@ You can preview the projects at:
 * Survey Form: https://jessie-melendres.github.io/FreeCodeCamp-Projects/Survey%20Form/
 * Photo Gallery: https://jessie-melendres.github.io/FreeCodeCamp-Projects/Photo%20Gallery/
 * Nutrition Label: https://jessie-melendres.github.io/FreeCodeCamp-Projects/Nutrition%20Label
-
+* Tribute Page: https://jessie-melendres.github.io/FreeCodeCamp-Projects/Tribute%20Page
